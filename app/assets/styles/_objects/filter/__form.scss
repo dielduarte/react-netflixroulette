@@ -1,0 +1,17 @@
+.filter__form {
+  position: fixed;
+  width: 300px;
+  margin: 40px 75px;
+  float: left;
+
+  form {
+    margin: 15px;
+  }
+
+  @media all and (max-width: $screen-mid-max) {
+    float: none;
+    width: 90%;
+    margin: 40px auto 40px auto;
+    position: relative;
+  }
+}

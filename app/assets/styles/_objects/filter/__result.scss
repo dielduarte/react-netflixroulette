@@ -1,0 +1,11 @@
+.filter__result {
+  float: left;
+  width: 50%;
+  margin: 40px 40px 40px 450px;
+
+  @media all and (max-width: $screen-mid-max) {
+    float: none;
+    width: 90%;
+    margin: 0 auto 40px auto;
+  }
+}
