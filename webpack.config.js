@@ -2,7 +2,6 @@ var path = require('path');
 
 var config = {
     entry: [
-        'webpack/hot/dev-server',
         './app/app.js'
     ],
     output: {
