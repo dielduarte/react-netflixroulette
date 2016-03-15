@@ -29,7 +29,7 @@ class Form extends React.Component {
         }).then(function(data) {
 
             if(data.errorcode)
-                return ReactDOM.render(<DefaultMessage title="Error" description="not find anything, try again." />, document.getElementById('cards_render'));
+                return ReactDOM.render(<DefaultMessage title="Error" description="didn't find anything, try again." />, document.getElementById('cards_render'));
 
 
             return ReactDOM.render(<Cards cardsData={data}/>, document.getElementById('cards_render'));
